@@ -1,0 +1,527 @@
+2025-01-30 16:12:03,268 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-01-30 16:12:03,269 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-30 16:12:03,270 - INFO -  * Restarting with stat
+2025-01-30 16:12:04,288 - WARNING -  * Debugger is active!
+2025-01-30 16:12:04,290 - INFO -  * Debugger PIN: 737-183-467
+2025-01-30 16:12:08,460 - INFO - 127.0.0.1 - - [30/Jan/2025 16:12:08] "GET / HTTP/1.1" 200 -
+2025-01-30 16:12:08,493 - INFO - 127.0.0.1 - - [30/Jan/2025 16:12:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-01-30 16:12:09,158 - INFO - Received form data: ImmutableMultiDict([('report_type', 'daily'), ('start_date', ''), ('end_date', '')])
+2025-01-30 16:12:09,158 - INFO - Processing report type: daily
+2025-01-30 16:12:09,159 - INFO - Date range: 2025-01-30 to 2025-01-30
+2025-01-30 16:12:09,389 - INFO - User data for ID 4432876773: Empty DataFrame
+Columns: [id, date_and_time, date, time, device_name, reader_name, person_name, person_group]
+Index: []
+2025-01-30 16:12:09,397 - WARNING - No matching group found for: АХО
+2025-01-30 16:12:09,398 - WARNING - No matching group found for: Кухня
+2025-01-30 16:12:09,398 - WARNING - No matching group found for: Бош ошпаз
+2025-01-30 16:12:09,398 - WARNING - No matching group found for: Работники кухни
+2025-01-30 16:12:09,398 - WARNING - No matching group found for: Отдел санитарии
+2025-01-30 16:12:09,398 - WARNING - No matching group found for: Мед.пункт
+2025-01-30 16:12:09,399 - WARNING - No matching group found for: Прачка
+2025-01-30 16:12:09,399 - WARNING - No matching group found for: Уборшики
+2025-01-30 16:12:09,399 - WARNING - No matching group found for: Садовники
+2025-01-30 16:12:09,399 - WARNING - No matching group found for: Сортировщики
+2025-01-30 16:12:09,400 - WARNING - No matching group found for: Администрация
+2025-01-30 16:12:09,400 - WARNING - No matching group found for: Отдел Контроля Качества
+2025-01-30 16:12:09,400 - WARNING - No matching group found for: Сифатчи
+2025-01-30 16:12:09,400 - WARNING - No matching group found for: Производственная лаборатория
+2025-01-30 16:12:09,400 - WARNING - No matching group found for: Лаборант
+2025-01-30 16:12:09,401 - WARNING - No matching group found for: Отдел Маркетинга
+2025-01-30 16:12:09,401 - WARNING - No matching group found for: Отдел Экспорта
+2025-01-30 16:12:09,401 - WARNING - No matching group found for: Отдел продаж
+2025-01-30 16:12:09,401 - WARNING - No matching group found for: снабжение
+2025-01-30 16:12:09,401 - WARNING - No matching group found for: Зам. директора по производству
+2025-01-30 16:12:09,403 - INFO - Checked user: ID=1922740109, Name=Урозов Жахонгир Орзикул угли, Group=Зам. директора по производству > Начальник цеха, Date=2025-01-30 00:00:00, Time=08:10:03
+2025-01-30 16:12:09,403 - WARNING - No matching group found for: Кондитеры
+2025-01-30 16:12:09,404 - INFO - Checked user: ID=3333906337, Name=Тохтасинов Нодирбек Рустамбек угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=07:07:31
+2025-01-30 16:12:09,409 - INFO - Checked user: ID=1133693584, Name=Тулкинов Шухрат Шавкат угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:00:30
+2025-01-30 16:12:09,409 - INFO - Checked user: ID=1133693584, Name=Тулкинов Шухрат Шавкат угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:00:47
+2025-01-30 16:12:09,409 - INFO - Checked user: ID=3944448608, Name=Хайитбоев Аббос Ойбек угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:04:27
+2025-01-30 16:12:09,410 - INFO - Checked user: ID=4511525866, Name=Шавкатов Ботиржон Баходир угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:08:44
+2025-01-30 16:12:09,410 - INFO - Checked user: ID=4418943304, Name=Холмурзаев Исломжон Урол угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:17:47
+2025-01-30 16:12:09,410 - INFO - Checked user: ID=4418943304, Name=Холмурзаев Исломжон Урол угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:17:51
+2025-01-30 16:12:09,410 - INFO - Checked user: ID=4048659367, Name=Иминжонов Умар-мирзо Орифжон угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:50:37
+2025-01-30 16:12:09,411 - INFO - Checked user: ID=4048659367, Name=Иминжонов Умар-мирзо Орифжон угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:50:42
+2025-01-30 16:12:09,412 - INFO - Checked user: ID=4314532935, Name=Ходжиев Наврузжон Диёр угли, Group=Зам. директора по производству > Начальник цеха > Начальник смены, Date=2025-01-30 00:00:00, Time=07:38:03
+2025-01-30 16:12:09,412 - WARNING - No matching group found for: Отдел Главного Технолога
+2025-01-30 16:12:09,417 - WARNING - No matching group found for: Бухгалтерия
+2025-01-30 16:12:09,418 - INFO - Checked user: ID=5147026608, Name=Мухаммадиев Бегзоджон, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:41:51
+2025-01-30 16:12:09,422 - INFO - Checked user: ID=4930098913, Name=Тохиров Сардор Бобиржон угли, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:53:20
+2025-01-30 16:12:09,422 - INFO - Checked user: ID=1802041226, Name=Тохиров Достон Бобиржон угли, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:53:23
+2025-01-30 16:12:09,422 - INFO - Checked user: ID=4930098913, Name=Тохиров Сардор Бобиржон угли, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:53:37
+2025-01-30 16:12:09,423 - INFO - Checked user: ID=1802041226, Name=Тохиров Достон Бобиржон угли, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:53:40
+2025-01-30 16:12:09,423 - INFO - Checked user: ID=5546090669, Name=Усмонжонов Сирож, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:55:53
+2025-01-30 16:12:09,423 - INFO - Checked user: ID=6918268570, Name=Нуритдинов Рустам Мусимонович, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:56:06
+2025-01-30 16:12:09,423 - INFO - Checked user: ID=5546090669, Name=Усмонжонов Сирож, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:56:10
+2025-01-30 16:12:09,424 - INFO - Checked user: ID=4627680077, Name=Сон Анна, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=09:06:05
+2025-01-30 16:12:09,424 - INFO - Checked user: ID=5147026608, Name=Мухаммадиев Бегзоджон, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=12:20:56
+2025-01-30 16:12:09,427 - INFO - Checked user: ID=4627680077, Name=Сон Анна, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=12:22:02
+2025-01-30 16:12:09,428 - INFO - Checked user: ID=5546090669, Name=Усмонжонов Сирож, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=12:22:19
+2025-01-30 16:12:09,428 - INFO - Checked user: ID=4627680077, Name=Сон Анна, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=13:34:51
+2025-01-30 16:12:09,428 - INFO - Checked user: ID=5546090669, Name=Усмонжонов Сирож, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=13:34:53
+2025-01-30 16:12:09,432 - INFO - Checked user: ID=5147026608, Name=Мухаммадиев Бегзоджон, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=13:38:50
+2025-01-30 16:12:09,432 - INFO - Checked user: ID=6918268570, Name=Нуритдинов Рустам Мусимонович, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=15:08:00
+2025-01-30 16:12:09,432 - INFO - Checked user: ID=6918268570, Name=Нуритдинов Рустам Мусимонович, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=15:35:58
+2025-01-30 16:12:09,433 - WARNING - No matching group found for: Финансовый отдел
+2025-01-30 16:12:09,433 - WARNING - No matching group found for: Финансист
+2025-01-30 16:12:09,443 - WARNING - No matching group found for: Экономист по проектированию
+2025-01-30 16:12:09,444 - INFO - Checked user: ID=6424058090, Name=Тошпўлатова Нафиса Низомиддиновна, Group=Начальник отдела по управлению персоналом, Date=2025-01-30 00:00:00, Time=08:55:56
+2025-01-30 16:12:09,444 - WARNING - No matching group found for: Менеджер отдела
+2025-01-30 16:12:09,444 - WARNING - No matching group found for: Отдел Главного Инженера
+2025-01-30 16:12:09,445 - WARNING - No matching group found for: Инженер по ПБ
+2025-01-30 16:12:09,445 - WARNING - No matching group found for: Инженер по ТБ
+2025-01-30 16:12:09,445 - WARNING - No matching group found for: Отдел Главного Энергетика
+2025-01-30 16:12:09,445 - WARNING - No matching group found for: Электрик
+2025-01-30 16:12:09,446 - WARNING - No matching group found for: Электронщик
+2025-01-30 16:12:09,446 - WARNING - No matching group found for: Отдел ТЭОиР
+2025-01-30 16:12:09,446 - WARNING - No matching group found for: Каршик
+2025-01-30 16:12:09,446 - WARNING - No matching group found for: Котельщик
+2025-01-30 16:12:09,447 - WARNING - No matching group found for: Сантехник
+2025-01-30 16:12:09,447 - WARNING - No matching group found for: Слесарь
+2025-01-30 16:12:09,447 - WARNING - No matching group found for: РСУ
+2025-01-30 16:12:09,448 - INFO - Checked user: ID=4844046317, Name=ЭшонкуловЗафар Худойкулович, Group=Отдел Главного Инженера > РСУ > Плотник, Date=2025-01-30 00:00:00, Time=07:35:11
+2025-01-30 16:12:09,452 - INFO - Checked user: ID=5424318152, Name=Усмонов Исакул Каршибоевич, Group=Отдел Главного Инженера > РСУ > Плотник, Date=2025-01-30 00:00:00, Time=07:56:42
+2025-01-30 16:12:09,452 - WARNING - No matching group found for: Сварщик
+2025-01-30 16:12:09,453 - WARNING - No matching group found for: Инспектор по оборудованию и ППР
+2025-01-30 16:12:09,453 - WARNING - No matching group found for: Механики
+2025-01-30 16:12:09,453 - WARNING - No matching group found for: Оператор наладчик
+2025-01-30 16:12:09,453 - WARNING - No matching group found for: Посетитель
+2025-01-30 16:12:09,454 - WARNING - No matching group found for: Прочее
+2025-01-30 16:12:09,454 - WARNING - No matching group found for: Отдел складской логистики и планирования
+2025-01-30 16:12:09,454 - WARNING - No matching group found for: Грузчик
+2025-01-30 16:12:09,454 - WARNING - No matching group found for: Кладовщик
+2025-01-30 16:12:09,454 - WARNING - No matching group found for: Грузчик
+2025-01-30 16:12:09,455 - WARNING - No matching group found for: Кладовщик
+2025-01-30 16:12:09,455 - WARNING - No matching group found for: специалист по мониторингу
+2025-01-30 16:12:09,455 - WARNING - No matching group found for: Транспортный отдел
+2025-01-30 16:12:09,455 - WARNING - No matching group found for: Служба по информационной безопасности и режиму
+2025-01-30 16:12:09,455 - WARNING - No matching group found for: Оператор видеонаблюдения
+2025-01-30 16:12:09,456 - WARNING - No matching group found for: Отдел информационно технической поддержки
+2025-01-30 16:12:09,552 - WARNING - No matching group found for: Отдел физической безопасности
+2025-01-30 16:12:09,553 - WARNING - No matching group found for: Охранник
+2025-01-30 16:12:09,563 - INFO - Processed data:            id  ...                                       person_group
+0  1922740109  ...    Зам. директора по производству > Начальник цеха
+1  3333906337  ...  Зам. директора по производству > Начальник цех...
+2  2448849329  ...  Зам. директора по производству > Начальник цех...
+3  4314532935  ...  Зам. директора по производству > Начальник цех...
+4  2157236094  ...    Зам. директора по производству > Экономист цеха
+
+[5 rows x 8 columns]
+2025-01-30 16:12:09,604 - INFO - 127.0.0.1 - - [30/Jan/2025 16:12:09] "POST /generate HTTP/1.1" 200 -
+2025-01-30 16:14:10,770 - INFO -  * Detected change in 'C:\\Users\\PC-SHOP\\Desktop\\deya-hr-automation\\report_generator.py', reloading
+2025-01-30 16:14:10,921 - INFO -  * Restarting with stat
+2025-01-30 16:14:12,029 - WARNING -  * Debugger is active!
+2025-01-30 16:14:12,030 - INFO -  * Debugger PIN: 737-183-467
+2025-01-30 16:14:13,844 - INFO - Received form data: ImmutableMultiDict([('report_type', 'daily'), ('start_date', ''), ('end_date', '')])
+2025-01-30 16:14:13,845 - INFO - Processing report type: daily
+2025-01-30 16:14:13,845 - INFO - Date range: 2025-01-30 to 2025-01-30
+2025-01-30 16:14:13,972 - INFO - User data for ID 4432876773: Empty DataFrame
+Columns: [id, date_and_time, date, time, device_name, reader_name, person_name, person_group]
+Index: []
+2025-01-30 16:14:13,981 - WARNING - No matching group found for: АХО
+2025-01-30 16:14:13,981 - WARNING - No matching group found for: Кухня
+2025-01-30 16:14:13,981 - WARNING - No matching group found for: Бош ошпаз
+2025-01-30 16:14:13,981 - WARNING - No matching group found for: Работники кухни
+2025-01-30 16:14:13,981 - WARNING - No matching group found for: Отдел санитарии
+2025-01-30 16:14:13,982 - WARNING - No matching group found for: Мед.пункт
+2025-01-30 16:14:13,982 - WARNING - No matching group found for: Прачка
+2025-01-30 16:14:13,982 - WARNING - No matching group found for: Уборшики
+2025-01-30 16:14:13,982 - WARNING - No matching group found for: Садовники
+2025-01-30 16:14:13,982 - WARNING - No matching group found for: Сортировщики
+2025-01-30 16:14:13,983 - WARNING - No matching group found for: Администрация
+2025-01-30 16:14:13,983 - WARNING - No matching group found for: Отдел Контроля Качества
+2025-01-30 16:14:13,983 - WARNING - No matching group found for: Сифатчи
+2025-01-30 16:14:13,983 - WARNING - No matching group found for: Производственная лаборатория
+2025-01-30 16:14:13,983 - WARNING - No matching group found for: Лаборант
+2025-01-30 16:14:13,983 - WARNING - No matching group found for: Отдел Маркетинга
+2025-01-30 16:14:13,984 - WARNING - No matching group found for: Отдел Экспорта
+2025-01-30 16:14:13,984 - WARNING - No matching group found for: Отдел продаж
+2025-01-30 16:14:13,984 - WARNING - No matching group found for: снабжение
+2025-01-30 16:14:13,984 - WARNING - No matching group found for: Зам. директора по производству
+2025-01-30 16:14:13,986 - INFO - Checked user: ID=1922740109, Name=Урозов Жахонгир Орзикул угли, Group=Зам. директора по производству > Начальник цеха, Date=2025-01-30 00:00:00, Time=08:10:03
+2025-01-30 16:14:13,986 - WARNING - No matching group found for: Кондитеры
+2025-01-30 16:14:13,987 - INFO - Checked user: ID=3333906337, Name=Тохтасинов Нодирбек Рустамбек угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=07:07:31
+2025-01-30 16:14:13,990 - INFO - Checked user: ID=1133693584, Name=Тулкинов Шухрат Шавкат угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:00:30
+2025-01-30 16:14:13,990 - INFO - Checked user: ID=1133693584, Name=Тулкинов Шухрат Шавкат угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:00:47
+2025-01-30 16:14:13,990 - INFO - Checked user: ID=3944448608, Name=Хайитбоев Аббос Ойбек угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:04:27
+2025-01-30 16:14:13,991 - INFO - Checked user: ID=4511525866, Name=Шавкатов Ботиржон Баходир угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:08:44
+2025-01-30 16:14:13,991 - INFO - Checked user: ID=4418943304, Name=Холмурзаев Исломжон Урол угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:17:47
+2025-01-30 16:14:13,991 - INFO - Checked user: ID=4418943304, Name=Холмурзаев Исломжон Урол угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:17:51
+2025-01-30 16:14:13,991 - INFO - Checked user: ID=4048659367, Name=Иминжонов Умар-мирзо Орифжон угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:50:37
+2025-01-30 16:14:13,992 - INFO - Checked user: ID=4048659367, Name=Иминжонов Умар-мирзо Орифжон угли, Group=Зам. директора по производству > Начальник цеха > Мастер смены, Date=2025-01-30 00:00:00, Time=08:50:42
+2025-01-30 16:14:13,993 - INFO - Checked user: ID=4314532935, Name=Ходжиев Наврузжон Диёр угли, Group=Зам. директора по производству > Начальник цеха > Начальник смены, Date=2025-01-30 00:00:00, Time=07:38:03
+2025-01-30 16:14:13,994 - WARNING - No matching group found for: Отдел Главного Технолога
+2025-01-30 16:14:13,998 - WARNING - No matching group found for: Бухгалтерия
+2025-01-30 16:14:13,999 - INFO - Checked user: ID=5147026608, Name=Мухаммадиев Бегзоджон, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:41:51
+2025-01-30 16:14:14,002 - INFO - Checked user: ID=4930098913, Name=Тохиров Сардор Бобиржон угли, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:53:20
+2025-01-30 16:14:14,002 - INFO - Checked user: ID=1802041226, Name=Тохиров Достон Бобиржон угли, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:53:23
+2025-01-30 16:14:14,003 - INFO - Checked user: ID=4930098913, Name=Тохиров Сардор Бобиржон угли, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:53:37
+2025-01-30 16:14:14,003 - INFO - Checked user: ID=1802041226, Name=Тохиров Достон Бобиржон угли, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:53:40
+2025-01-30 16:14:14,003 - INFO - Checked user: ID=5546090669, Name=Усмонжонов Сирож, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:55:53
+2025-01-30 16:14:14,003 - INFO - Checked user: ID=6918268570, Name=Нуритдинов Рустам Мусимонович, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:56:06
+2025-01-30 16:14:14,003 - INFO - Checked user: ID=5546090669, Name=Усмонжонов Сирож, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=08:56:10
+2025-01-30 16:14:14,004 - INFO - Checked user: ID=4627680077, Name=Сон Анна, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=09:06:05
+2025-01-30 16:14:14,004 - INFO - Checked user: ID=5147026608, Name=Мухаммадиев Бегзоджон, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=12:20:56
+2025-01-30 16:14:14,008 - INFO - Checked user: ID=4627680077, Name=Сон Анна, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=12:22:02
+2025-01-30 16:14:14,009 - INFO - Checked user: ID=5546090669, Name=Усмонжонов Сирож, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=12:22:19
+2025-01-30 16:14:14,009 - INFO - Checked user: ID=4627680077, Name=Сон Анна, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=13:34:51
+2025-01-30 16:14:14,009 - INFO - Checked user: ID=5546090669, Name=Усмонжонов Сирож, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=13:34:53
+2025-01-30 16:14:14,013 - INFO - Checked user: ID=5147026608, Name=Мухаммадиев Бегзоджон, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=13:38:50
+2025-01-30 16:14:14,013 - INFO - Checked user: ID=6918268570, Name=Нуритдинов Рустам Мусимонович, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=15:08:00
+2025-01-30 16:14:14,013 - INFO - Checked user: ID=6918268570, Name=Нуритдинов Рустам Мусимонович, Group=Зам. директора по экономике и финансам > Бухгалтерия > Бухгалтер, Date=2025-01-30 00:00:00, Time=15:35:58
+2025-01-30 16:14:14,014 - WARNING - No matching group found for: Финансовый отдел
+2025-01-30 16:14:14,014 - WARNING - No matching group found for: Финансист
+2025-01-30 16:14:14,023 - WARNING - No matching group found for: Экономист по проектированию
+2025-01-30 16:14:14,024 - INFO - Checked user: ID=6424058090, Name=Тошпўлатова Нафиса Низомиддиновна, Group=Начальник отдела по управлению персоналом, Date=2025-01-30 00:00:00, Time=08:55:56
+2025-01-30 16:14:14,025 - WARNING - No matching group found for: Менеджер отдела
+2025-01-30 16:14:14,025 - WARNING - No matching group found for: Отдел Главного Инженера
+2025-01-30 16:14:14,025 - WARNING - No matching group found for: Инженер по ПБ
+2025-01-30 16:14:14,025 - WARNING - No matching group found for: Инженер по ТБ
+2025-01-30 16:14:14,025 - WARNING - No matching group found for: Отдел Главного Энергетика
+2025-01-30 16:14:14,026 - WARNING - No matching group found for: Электрик
+2025-01-30 16:14:14,026 - WARNING - No matching group found for: Электронщик
+2025-01-30 16:14:14,026 - WARNING - No matching group found for: Отдел ТЭОиР
+2025-01-30 16:14:14,026 - WARNING - No matching group found for: Каршик
+2025-01-30 16:14:14,027 - WARNING - No matching group found for: Котельщик
+2025-01-30 16:14:14,027 - WARNING - No matching group found for: Сантехник
+2025-01-30 16:14:14,027 - WARNING - No matching group found for: Слесарь
+2025-01-30 16:14:14,027 - WARNING - No matching group found for: РСУ
+2025-01-30 16:14:14,029 - INFO - Checked user: ID=4844046317, Name=ЭшонкуловЗафар Худойкулович, Group=Отдел Главного Инженера > РСУ > Плотник, Date=2025-01-30 00:00:00, Time=07:35:11
+2025-01-30 16:14:14,032 - INFO - Checked user: ID=5424318152, Name=Усмонов Исакул Каршибоевич, Group=Отдел Главного Инженера > РСУ > Плотник, Date=2025-01-30 00:00:00, Time=07:56:42
+2025-01-30 16:14:14,032 - WARNING - No matching group found for: Сварщик
+2025-01-30 16:14:14,032 - WARNING - No matching group found for: Инспектор по оборудованию и ППР
+2025-01-30 16:14:14,032 - WARNING - No matching group found for: Механики
+2025-01-30 16:14:14,033 - WARNING - No matching group found for: Оператор наладчик
+2025-01-30 16:14:14,033 - WARNING - No matching group found for: Посетитель
+2025-01-30 16:14:14,033 - WARNING - No matching group found for: Прочее
+2025-01-30 16:14:14,033 - WARNING - No matching group found for: Отдел складской логистики и планирования
+2025-01-30 16:14:14,033 - WARNING - No matching group found for: Грузчик
+2025-01-30 16:14:14,034 - WARNING - No matching group found for: Кладовщик
+2025-01-30 16:14:14,034 - WARNING - No matching group found for: Грузчик
+2025-01-30 16:14:14,034 - WARNING - No matching group found for: Кладовщик
+2025-01-30 16:14:14,034 - WARNING - No matching group found for: специалист по мониторингу
+2025-01-30 16:14:14,034 - WARNING - No matching group found for: Транспортный отдел
+2025-01-30 16:14:14,034 - WARNING - No matching group found for: Служба по информационной безопасности и режиму
+2025-01-30 16:14:14,035 - WARNING - No matching group found for: Оператор видеонаблюдения
+2025-01-30 16:14:14,035 - WARNING - No matching group found for: Отдел информационно технической поддержки
+2025-01-30 16:14:14,132 - WARNING - No matching group found for: Отдел физической безопасности
+2025-01-30 16:14:14,132 - WARNING - No matching group found for: Охранник
+2025-01-30 16:14:14,183 - INFO - 127.0.0.1 - - [30/Jan/2025 16:14:14] "POST /generate HTTP/1.1" 200 -
+2025-01-30 16:20:27,695 - INFO -  * Detected change in 'C:\\Users\\PC-SHOP\\Desktop\\deya-hr-automation\\report_generator.py', reloading
+2025-01-30 16:20:27,848 - INFO -  * Restarting with stat
+2025-01-30 16:20:28,958 - WARNING -  * Debugger is active!
+2025-01-30 16:20:28,960 - INFO -  * Debugger PIN: 737-183-467
+2025-01-30 16:20:32,172 - INFO - Received form data: ImmutableMultiDict([('report_type', 'daily'), ('start_date', ''), ('end_date', '')])
+2025-01-30 16:20:32,172 - INFO - Processing report type: daily
+2025-01-30 16:20:32,173 - INFO - Date range: 2025-01-30 to 2025-01-30
+2025-01-30 16:20:32,295 - ERROR - Error fetching data: (psycopg2.errors.SyntaxError) ОШИБКА:  ошибка синтаксиса (примерное положение: "WHERE")
+LINE 13:                     WHERE id = 6424058090
+                             ^
+
+[SQL: 
+                    SELECT 
+                        id,
+                        date_and_time,
+                        date,
+                        time,
+                        device_name,
+                        reader_name,
+                        person_name,
+                        person_group
+                    FROM users
+                    WHERE date BETWEEN %(start_date)s AND %(end_date)s
+                    WHERE id = 6424058090
+                    ORDER BY date_and_time
+                ]
+[parameters: {'start_date': '2025-01-30', 'end_date': '2025-01-30'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-01-30 16:20:32,360 - ERROR - Traceback (most recent call last):
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.SyntaxError: ОШИБКА:  ошибка синтаксиса (примерное положение: "WHERE")
+LINE 13:                     WHERE id = 6424058090
+                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC-SHOP\Desktop\deya-hr-automation\report_generator.py", line 67, in fetch_data
+    chunks = pd.read_sql_query(query, engine, params=params, chunksize=50000)  # Fetch in 50K row chunks
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\sql.py", line 526, in read_sql_query
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\sql.py", line 1836, in read_query
+    result = self.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\sql.py", line 1660, in execute
+    return self.con.execute(sql, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.SyntaxError) ОШИБКА:  ошибка синтаксиса (примерное положение: "WHERE")
+LINE 13:                     WHERE id = 6424058090
+                             ^
+
+[SQL: 
+                    SELECT 
+                        id,
+                        date_and_time,
+                        date,
+                        time,
+                        device_name,
+                        reader_name,
+                        person_name,
+                        person_group
+                    FROM users
+                    WHERE date BETWEEN %(start_date)s AND %(end_date)s
+                    WHERE id = 6424058090
+                    ORDER BY date_and_time
+                ]
+[parameters: {'start_date': '2025-01-30', 'end_date': '2025-01-30'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2025-01-30 16:20:32,360 - ERROR - Error generating report: (psycopg2.errors.SyntaxError) ОШИБКА:  ошибка синтаксиса (примерное положение: "WHERE")
+LINE 13:                     WHERE id = 6424058090
+                             ^
+
+[SQL: 
+                    SELECT 
+                        id,
+                        date_and_time,
+                        date,
+                        time,
+                        device_name,
+                        reader_name,
+                        person_name,
+                        person_group
+                    FROM users
+                    WHERE date BETWEEN %(start_date)s AND %(end_date)s
+                    WHERE id = 6424058090
+                    ORDER BY date_and_time
+                ]
+[parameters: {'start_date': '2025-01-30', 'end_date': '2025-01-30'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-01-30 16:20:32,362 - ERROR - Traceback (most recent call last):
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.SyntaxError: ОШИБКА:  ошибка синтаксиса (примерное положение: "WHERE")
+LINE 13:                     WHERE id = 6424058090
+                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC-SHOP\Desktop\deya-hr-automation\report_generator.py", line 225, in generate_report
+    df = self.data_fetcher.fetch_data(start_date, end_date)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\Desktop\deya-hr-automation\report_generator.py", line 67, in fetch_data
+    chunks = pd.read_sql_query(query, engine, params=params, chunksize=50000)  # Fetch in 50K row chunks
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\sql.py", line 526, in read_sql_query
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\sql.py", line 1836, in read_query
+    result = self.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\sql.py", line 1660, in execute
+    return self.con.execute(sql, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.SyntaxError) ОШИБКА:  ошибка синтаксиса (примерное положение: "WHERE")
+LINE 13:                     WHERE id = 6424058090
+                             ^
+
+[SQL: 
+                    SELECT 
+                        id,
+                        date_and_time,
+                        date,
+                        time,
+                        device_name,
+                        reader_name,
+                        person_name,
+                        person_group
+                    FROM users
+                    WHERE date BETWEEN %(start_date)s AND %(end_date)s
+                    WHERE id = 6424058090
+                    ORDER BY date_and_time
+                ]
+[parameters: {'start_date': '2025-01-30', 'end_date': '2025-01-30'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2025-01-30 16:20:32,362 - ERROR - Error generating report: (psycopg2.errors.SyntaxError) ОШИБКА:  ошибка синтаксиса (примерное положение: "WHERE")
+LINE 13:                     WHERE id = 6424058090
+                             ^
+
+[SQL: 
+                    SELECT 
+                        id,
+                        date_and_time,
+                        date,
+                        time,
+                        device_name,
+                        reader_name,
+                        person_name,
+                        person_group
+                    FROM users
+                    WHERE date BETWEEN %(start_date)s AND %(end_date)s
+                    WHERE id = 6424058090
+                    ORDER BY date_and_time
+                ]
+[parameters: {'start_date': '2025-01-30', 'end_date': '2025-01-30'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-01-30 16:20:32,364 - ERROR - Traceback (most recent call last):
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.SyntaxError: ОШИБКА:  ошибка синтаксиса (примерное положение: "WHERE")
+LINE 13:                     WHERE id = 6424058090
+                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\PC-SHOP\Desktop\deya-hr-automation\app.py", line 100, in generate
+    output_file = report_generator.generate_report(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\Desktop\deya-hr-automation\report_generator.py", line 225, in generate_report
+    df = self.data_fetcher.fetch_data(start_date, end_date)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\Desktop\deya-hr-automation\report_generator.py", line 67, in fetch_data
+    chunks = pd.read_sql_query(query, engine, params=params, chunksize=50000)  # Fetch in 50K row chunks
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\sql.py", line 526, in read_sql_query
+    return pandas_sql.read_query(
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\sql.py", line 1836, in read_query
+    result = self.execute(sql, params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\sql.py", line 1660, in execute
+    return self.con.execute(sql, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\sql\elements.py", line 515, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1638, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1843, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1983, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 2352, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\base.py", line 1964, in _exec_single_context
+    self.dialect.do_execute(
+  File "C:\Users\PC-SHOP\AppData\Local\Programs\Python\Python312\Lib\site-packages\sqlalchemy\engine\default.py", line 942, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.SyntaxError) ОШИБКА:  ошибка синтаксиса (примерное положение: "WHERE")
+LINE 13:                     WHERE id = 6424058090
+                             ^
+
+[SQL: 
+                    SELECT 
+                        id,
+                        date_and_time,
+                        date,
+                        time,
+                        device_name,
+                        reader_name,
+                        person_name,
+                        person_group
+                    FROM users
+                    WHERE date BETWEEN %(start_date)s AND %(end_date)s
+                    WHERE id = 6424058090
+                    ORDER BY date_and_time
+                ]
+[parameters: {'start_date': '2025-01-30', 'end_date': '2025-01-30'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+
+2025-01-30 16:20:32,365 - INFO - 127.0.0.1 - - [30/Jan/2025 16:20:32] "[35m[1mPOST /generate HTTP/1.1[0m" 500 -
+2025-01-30 16:21:08,141 - INFO -  * Detected change in 'C:\\Users\\PC-SHOP\\Desktop\\deya-hr-automation\\report_generator.py', reloading
+2025-01-30 16:21:08,290 - INFO -  * Restarting with stat
+2025-01-30 16:21:09,349 - WARNING -  * Debugger is active!
+2025-01-30 16:21:09,352 - INFO -  * Debugger PIN: 737-183-467
+2025-01-30 16:21:11,727 - INFO - Received form data: ImmutableMultiDict([('report_type', 'daily'), ('start_date', ''), ('end_date', '')])
+2025-01-30 16:21:11,727 - INFO - Processing report type: daily
+2025-01-30 16:21:11,727 - INFO - Date range: 2025-01-30 to 2025-01-30
+2025-01-30 16:21:11,856 - INFO - Fetched data:            id       date_and_time        date  ... reader_name                        person_name                               person_group
+0  6424058090 2025-01-30 08:55:56  2025-01-30  ...      Kirish  Тошпўлатова Нафиса Низомиддиновна  Начальник отдела по управлению персоналом
+
+[1 rows x 8 columns]
+2025-01-30 16:21:11,857 - INFO - User data for ID 4432876773: Empty DataFrame
+Columns: [id, date_and_time, date, time, device_name, reader_name, person_name, person_group]
+Index: []
+2025-01-30 16:21:11,862 - INFO - Checked user: ID=6424058090, Name=Тошпўлатова Нафиса Низомиддиновна, Group=Начальник отдела по управлению персоналом, Date=2025-01-30 00:00:00, Time=08:55:56
+2025-01-30 16:21:11,868 - INFO - Processed data:            id       date_and_time       date  ... reader_name                        person_name                               person_group
+0  6424058090 2025-01-30 08:55:56 2025-01-30  ...      Kirish  Тошпўлатова Нафиса Низомиддиновна  Начальник отдела по управлению персоналом
+
+[1 rows x 8 columns]
+2025-01-30 16:21:11,898 - INFO - 127.0.0.1 - - [30/Jan/2025 16:21:11] "POST /generate HTTP/1.1" 200 -
+2025-01-30 16:23:15,894 - INFO -  * Detected change in 'C:\\Users\\PC-SHOP\\Desktop\\deya-hr-automation\\report_generator.py', reloading
+2025-01-30 16:23:16,045 - INFO -  * Restarting with stat
+2025-01-30 16:23:17,211 - WARNING -  * Debugger is active!
+2025-01-30 16:23:17,212 - INFO -  * Debugger PIN: 737-183-467
+2025-01-30 16:23:20,958 - INFO - Received form data: ImmutableMultiDict([('report_type', 'daily'), ('start_date', ''), ('end_date', '')])
+2025-01-30 16:23:20,958 - INFO - Processing report type: daily
+2025-01-30 16:23:20,958 - INFO - Date range: 2025-01-30 to 2025-01-30
+2025-01-30 16:23:21,087 - INFO - User data for ID 4432876773: Empty DataFrame
+Columns: [id, date_and_time, date, time, device_name, reader_name, person_name, person_group]
+Index: []
+2025-01-30 16:23:21,172 - INFO - Processed data: Empty DataFrame
+Columns: [id, date_and_time, date, time, device_name, reader_name, person_name, person_group]
+Index: []
+2025-01-30 16:23:21,213 - INFO - 127.0.0.1 - - [30/Jan/2025 16:23:21] "POST /generate HTTP/1.1" 200 -
+2025-01-30 16:26:06,040 - INFO -  * Detected change in 'C:\\Users\\PC-SHOP\\Desktop\\deya-hr-automation\\app.py', reloading
+2025-01-30 16:26:06,188 - INFO -  * Restarting with stat

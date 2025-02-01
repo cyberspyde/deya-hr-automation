@@ -1,0 +1,8 @@
+# Database configuration
+DB_CONFIG = {
+    'host': 'localhost',
+    'database': 'hikvision',
+    'user': 'postgres',
+    'password': 'postgres',
+    'port': '5432'
+}
