@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Report Generator</title>
+    <title>Генератор отчетов</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -85,7 +85,7 @@
                 const startDate = form.start_date.value;
                 const endDate = form.end_date.value;
                 if (!startDate || !endDate) {
-                    alert('Please select both start and end dates for custom report');
+                    alert('Выберите даты начала и окончания для специального отчета.');
                     return;
                 }
             }
@@ -94,7 +94,7 @@
             if (useTimetable) {
                 const timetableFile = form.work_timetable.files[0];
                 if (!timetableFile) {
-                    alert('Please select a work timetable file');
+                    alert('Пожалуйста, выберите файл рабочего расписания');
                     return;
                 }
             }
@@ -106,7 +106,7 @@
                 body: formData
             })
             .then(response => {
-                if (!response.ok) throw new Error('Report generation failed');
+                if (!response.ok) throw new Error('Не удалось создать отчет');
                 return response.blob();
             })
             .then(blob => {
@@ -126,39 +126,39 @@
 </head>
 <body>
     <div class="container">
-        <h1>Attendance Report Generator</h1>
+        <h1>Генератор отчетов о посещаемости</h1>
         <form action="/generate" method="post" onsubmit="validateForm(event)">
             <div class="form-group">
                 <input type="checkbox" id="use_timetable" name="use_timetable" onchange="toggleTimetableUpload()">
-                <label for="use_timetable">Use Work Timetable for Filtering</label>
+                <label for="use_timetable">Используйте график работы для фильтрации</label>
                 <div id="timetable-upload" style="display: none; margin-top: 10px;">
-                    <label for="work_timetable">Upload Work Timetable Excel:</label>
+                    <label for="work_timetable">Загрузить расписание работы в Excel:</label>
                     <input type="file" id="work_timetable" name="work_timetable" accept=".xlsx,.xls">
                 </div>
                 <select name="report_type" id="report_type" onchange="toggleCustomDates()" required>
-                    <option value="">Select a report type</option>
-                    <option value="daily">Daily Report</option>
-                    <option value="weekly">Weekly Report</option>
-                    <option value="monthly">Monthly Report</option>
-                    <option value="quarterly">Quarterly Report</option>
-                    <option value="custom">Custom Date Range</option>
+                    <option value="">Выберите тип отчета</option>
+                    <option value="daily">Ежедневный отчет</option>
+                    <option value="weekly">Еженедельный отчет</option>
+                    <option value="monthly">Ежемесячный отчет</option>
+                    <option value="quarterly">Ежеквартальный отчет</option>
+                    <option value="custom">Пользовательский диапазон дат</option>
                 </select>
             </div>
             
             <div id="custom-dates" class="form-group">
                 <div class="date-inputs">
                     <div>
-                        <label for="start_date">Start Date:</label>
+                        <label for="start_date">Дата начала:</label>
                         <input type="date" id="start_date" name="start_date">
                     </div>
                     <div>
-                        <label for="end_date">End Date:</label>
+                        <label for="end_date">Дата окончания:</label>
                         <input type="date" id="end_date" name="end_date">
                     </div>
                 </div>
             </div>
             
-            <button type="submit" class="button">Generate Report</button>
+            <button type="submit" class="button">Создать отчет</button>
         </form>
         <div id="error-message" class="error"></div>
     </div>

@@ -7,7 +7,7 @@ from dateutil.relativedelta import relativedelta
 import traceback
 from openpyxl.utils import get_column_letter
 from report_generator import ReportGenerator
-
+from functools import wraps
 app = Flask(__name__)
 
 # Database configuration
@@ -33,11 +33,11 @@ def validate_dates(start_str, end_str):
         end_date = datetime.strptime(end_str, "%Y-%m-%d").date()
 
         if start_date > end_date:
-            raise ValueError("Start date cannot be after end date")
+            raise ValueError("Дата начала не может быть позже даты окончания.")
 
         return start_date, end_date
     except ValueError as e:
-        raise ValueError(f"Invalid date format: {str(e)}")
+        raise ValueError(f"Неверный формат даты: {str(e)}")
 
 
 @app.route("/generate", methods=["POST"])
@@ -46,7 +46,7 @@ def generate():
         app.logger.info(f"Received form data: {request.form}")
 
         if "report_type" not in request.form:
-            return jsonify({"error": "Report type not specified"}), 400
+            return jsonify({"error": "Тип отчета не указан"}), 400
 
         report_type = request.form["report_type"]
         today = datetime.now().date()
@@ -57,7 +57,7 @@ def generate():
                 return (
                     jsonify(
                         {
-                            "error": "Start date and end date are required for custom reports"
+                            "error": "Для пользовательских отчетов необходимы дата начала и окончания."
                         }
                     ),
                     400,
@@ -84,9 +84,9 @@ def generate():
                 start_date = today.replace(month=quarter_month, day=1)
                 end_date = start_date + relativedelta(months=3, days=-1)
             else:
-                return jsonify({"error": f"Invalid report type: {report_type}"}), 400
+                return jsonify({"error": f"Неверный тип отчета: {report_type}"}), 400
 
-        app.logger.info(f"Date range: {start_date} to {end_date}")
+        app.logger.info(f"Диапазон дат: {start_date} to {end_date}")
 
         additional_params = request.form.to_dict()
         output_file = report_generator.generate_report(
@@ -112,22 +112,22 @@ def generate():
                     if os.path.exists(temp_path):
                         os.remove(temp_path)
             else:
-                return jsonify({"error": "Work timetable file is required"}), 400
+                return jsonify({"error": "Требуется файл расписания работы."}), 400
         else:
             output_file = report_generator.generate_report(
                 report_type, start_date, end_date, additional_params
             )
 
         if not os.path.exists(output_file):
-            app.logger.error(f"Generated file not found: {output_file}")
-            return jsonify({"error": "Report generation failed"}), 500
+            app.logger.error(f"Сгенерированный файл не найден: {output_file}")
+            return jsonify({"error": "Не удалось создать отчет"}), 500
 
         return send_file(output_file, as_attachment=True)
 
     except Exception as e:
-        app.logger.error(f"Error generating report: {str(e)}")
+        app.logger.error(f"Ошибка создания отчета: {str(e)}")
         app.logger.error(traceback.format_exc())
-        return jsonify({"error": f"Server error: {str(e)}"}), 500
+        return jsonify({"error": f"Ошибка сервера: {str(e)}"}), 500
 
 
 if __name__ == "__main__":
