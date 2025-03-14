@@ -5,7 +5,7 @@ import os
 from openpyxl.utils import get_column_letter
 import traceback
 from filter import Filter
-
+import threading, time
 
 class ReportGenerator:
     def __init__(self, db_config):
@@ -52,6 +52,16 @@ class ReportGenerator:
             print(f"Error fetching data: {str(e)}")
             print(traceback.format_exc())
             raise
+
+    def delete_file_after_delay(self, file_path, delay):
+        """Delete the file after a specified delay"""
+        def delete_file():
+            time.sleep(delay)
+            if os.path.exists(file_path):
+                os.remove(file_path)
+                print(f"File {file_path} deleted after {delay} seconds")
+
+        threading.Thread(target=delete_file).start()
 
     def generate_excel(self, df, report_type, start_date, end_date, additional_params):
         """Generate Excel file from DataFrame"""
@@ -106,7 +116,7 @@ class ReportGenerator:
                             adjusted_width += 5
                         worksheet.column_dimensions[column].width = adjusted_width
 
-            print("Excel file generated successfully")
+            self.delete_file_after_delay(output_file, 5)
             return output_file
 
         except Exception as e:
@@ -260,6 +270,7 @@ class ReportGenerator:
             print(
                 f"Custom Excel file generated successfully with {len(matched_df)} matching records"
             )
+            self.delete_file_after_delay(output_file, 5)
             return output_file
 
         except Exception as e:
